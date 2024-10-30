@@ -1,0 +1,14 @@
+<?php
+
+namespace ChannelEngine\Infrastructure\ORM\Exceptions;
+
+use ChannelEngine\Infrastructure\Exceptions\BaseException;
+
+/**
+ * Class QueryFilterInvalidParamException.
+ *
+ * @package ChannelEngine\Infrastructure\ORM\Exceptions
+ */
+class QueryFilterInvalidParamException extends BaseException
+{
+}

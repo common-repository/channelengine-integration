@@ -1,0 +1,30 @@
+{
+  "name": "channelengine/integration-core",
+  "description": "ChannelEngine integrations core library",
+  "type": "library",
+  "license": "proprietary",
+  "require": {
+    "php": ">=5.6",
+    "ext-json": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "ChannelEngine\\Infrastructure\\": "src/Infrastructure",
+      "ChannelEngine\\BusinessLogic\\": "src/BusinessLogic"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "ChannelEngine\\Tests\\Infrastructure\\": "tests/Infrastructure",
+      "ChannelEngine\\Tests\\BusinessLogic\\": "tests/BusinessLogic"
+    }
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^5.7"
+  },
+  "config": {
+    "platform": {
+      "php": "5.6"
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+    "packages": [
+        {
+            "name": "channelengine/integration-core",
+            "version": "dev-woocommerce",
+            "version_normalized": "dev-woocommerce",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:channelengine/logeecom-core.git",
+                "reference": "e24d15d979f5bf86d39bf27b73136c35faf384a1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/channelengine/logeecom-core/zipball/e24d15d979f5bf86d39bf27b73136c35faf384a1",
+                "reference": "e24d15d979f5bf86d39bf27b73136c35faf384a1",
+                "shasum": ""
+            },
+            "require": {
+                "ext-json": "*",
+                "php": ">=5.6"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^5.7"
+            },
+            "time": "2024-10-28T13:19:14+00:00",
+            "type": "library",
+            "installation-source": "source",
+            "autoload": {
+                "psr-4": {
+                    "ChannelEngine\\Infrastructure\\": "src/Infrastructure",
+                    "ChannelEngine\\BusinessLogic\\": "src/BusinessLogic"
+                }
+            },
+            "autoload-dev": {
+                "psr-4": {
+                    "ChannelEngine\\Tests\\Infrastructure\\": "tests/Infrastructure",
+                    "ChannelEngine\\Tests\\BusinessLogic\\": "tests/BusinessLogic"
+                }
+            },
+            "license": [
+                "proprietary"
+            ],
+            "description": "ChannelEngine integrations core library",
+            "install-path": "../channelengine/integration-core"
+        }
+    ],
+    "dev": false,
+    "dev-package-names": []
+}
